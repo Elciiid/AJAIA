@@ -132,10 +132,11 @@ version:
    > param on both URLs.
 2. Import the repo into **Vercel**. Set env vars: `DATABASE_URL`, `DIRECT_URL`,
    and a strong `SESSION_SECRET` (32+ chars).
-3. Set the Vercel **Build Command** to `npm run vercel-build` (runs
-   `prisma migrate deploy` before building; it's idempotent).
-4. Seed demo data once (locally, pointing at the direct URL):
-   `npm run db:seed`.
+3. Apply the schema once from your machine (pointing `.env` at the project):
+   `npm run db:migrate` then `npm run db:seed`. The app lives in the
+   `ajaia_docs` schema. Build Command on Vercel is `npm run vercel-build`
+   (`prisma generate && next build` — it does **not** touch the DB, so the build
+   never depends on DB connectivity).
 
 ---
 

@@ -1,7 +1,7 @@
 # Submission — Ajaia Docs
 
 ## Live product
-- **Deployed URL:** _add your Vercel URL here_
+- **Deployed URL:** https://ajaia-three.vercel.app
 - **Walkthrough video:** see [`VIDEO.md`](VIDEO.md)
 
 ## Test accounts (no password — sign in with the email)

@@ -3,7 +3,7 @@
 A Google-Docs-inspired rich-text editor where users create, format, import, and
 **share** documents. Built for the Ajaia Full Stack Product Engineer assessment.
 
-> **Live demo:** _add your Vercel URL here after deploying_
+> **Live demo:** https://ajaia-three.vercel.app
 > **Demo accounts:** `alice@ajaia.test`, `ben@ajaia.test`, `carol@ajaia.test`
 > (sign in with any of these — no password — to see the sharing flow immediately).
 
